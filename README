@@ -1,0 +1,11 @@
+これはアニメエンコード用のシェルスクリプトです
+ffmpegをLinux or MinGW上でコンパイルしている環境を想定しています。
+
+使い方
+１，ffmpegのプリセットディレクトリに「libx264-hq-ts.ffpreset」を配置
+例）/usr/local/src/ffmpeg/presets/libx264-hq-ts.ffpreset
+
+２，エンコードしたいtsファイルが有るディレクトリで
+「./encode.sh」
+
+出力先は各自適当に書きなおしてください
